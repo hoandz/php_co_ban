@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+		<!-- su dung cap the form de tao form dang nhap -->
+		<form>
+			<!-- ?thuoc tinh name: giup dat ten cho tung cai form -->
+			<!-- thuoc tinh action xu ly du lieu cho form -->
+			Nhập tên: <input type="text" name="username" value="Admin" /><br><br>
+			Password: <input type="password" name="password"><br><br>
+			
+			<!-- CHECKBOX -->
+
+			<h2>Chọn hoa quả:</h2><br><br>
+			Táo Việt Nam <input type="checkbox"><br><br>
+			Táo Trung Quốc <input type="checkbox"><br><br>
+			Táo Mỹ <input type="checkbox"><br><br>
+			Táo Hàn Quốc <input type="checkbox"><br><br>
+			Táo Nhật Bản <input type="checkbox"><br><br>
+
+			<!-- RADIO -->
+			<h2>Chọn giới tính của bạn</h2>
+			Nam: <input type="radio" name="gioitinh"><br>
+			Nữ:  <input type="radio" name="gioitinh"><br>
+			Khác: <input type="radio" name="gioitinh"><br><br><br>
+
+			<!-- FILE : CHO PHÉP UPLOAD FILE LEN HE THONG -->
+			<h2>Upload File</h2>
+			Chọn File: <input type="file">
+
+			<!-- SELECT -->
+			<h2>Chọn quốc gia:</h2><br>
+			<select name="select_name">
+				<option value="gia_tri1" selected="selected">Việt Nam</option>
+			<option value="gia_tri2">Hàn Quốc</option>
+			<option value="gia_tri3">Trung Quốc</option>
+			<option value="gia_tri4">Nhật Bản</option>
+			<option value="gia_tri5">Mỹ</option>
+			</select><br><br><br>
+
+			<!-- Textarea -->
+			<textarea name="" id="" cols="30" rows="10"></textarea>
+			<input type="submit" value="Gửi đi">
+			<input type="reset" value="đặt lại">
+		</form>
+	</body>
+</html>
